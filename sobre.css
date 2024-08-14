@@ -1,0 +1,73 @@
+header{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgb(154,212,154) 0%, rgba(255,255,255,1) 70%);
+    padding: 20px 0;
+}
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(49,110,69);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.tituloprincipal{
+    margin-left: 50px;
+    font-size: 30px;
+	font-weight: bold;
+	color: rgb(33, 77, 47);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    margin-left: 50px;
+    font-size: 30px;
+	font-weight: bold;
+	color: rgb(33, 77, 47);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.sobre{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+	text-align: center;
+	color: rgb(33, 77, 47);
+    margin-right: 70px;
+    margin-left: 70px;
+    text-align: justify;
+}
+.imagemsobre{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+}
+
+footer{
+    text-align: center;
+    background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(154,212,154) 100%);
+    padding: 40px 0;
+}
+
+
+.logo{
+    width: 200px;
+}
